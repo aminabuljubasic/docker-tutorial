@@ -26,7 +26,7 @@ int main(int argc, char **argv) {
       char directory_help2[40];
       strcpy(directory_help2,directory);
       filename_out = strcat(directory_help,"/write.txt");
-      demo_write = fopen(filename,"w+");
+      demo_write = fopen(filename_out,"w+");
       char c;
       while ((c = getc(file)) != EOF){
            putchar(c);
