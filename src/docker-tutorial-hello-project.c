@@ -4,9 +4,7 @@
 
 int main(int argc, char **argv) {
   
-  
-  
-  char* directory, str;
+  char* directory;
   char* filename_in; 
   char*	filename_out;
   if (argc >= 2){
