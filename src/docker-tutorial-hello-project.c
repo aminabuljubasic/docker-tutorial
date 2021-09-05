@@ -28,7 +28,7 @@ int main(int argc, char **argv) {
       filename_out = strcat(directory_help,"/write.txt");
       demo_write = fopen(filename_out,"w+");
       char c;
-      while ((c = getc(file)) != EOF){
+      while ((c = getc(demo_read)) != EOF){
            putchar(c);
            fprintf(demo_write, "%c ",c);
       }
